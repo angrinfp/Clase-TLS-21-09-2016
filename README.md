@@ -20,7 +20,7 @@ Lee cuidadosamente las siguientes instrucciones para poder entregar y hacer bien
 
 	* Si todo lo anterior fallara, adjuntar las fuentes de la tarea en un correo y mandármelo.
 
-P.D: Quien me envíe la tarea usando el primer método, tendrá 1 punto extra en su nota de primer promedio.
+	P.D: Quien me envíe la tarea usando el primer método, tendrá 1 punto extra en su nota de primer promedio.
 
 7. Si tienes alguna duda sobre algún error o algo que no te salga de la tarea puedes hacer lo siguiente: 
 
@@ -30,7 +30,7 @@ P.D: Quien me envíe la tarea usando el primer método, tendrá 1 punto extra en
 
 	* Si todo lo anterior fallara puedes enviarme las fuentes de la tarea al correo.
 
-Usando cualquiera de estas opciones, me haces el envío de tu trabajo hasta donde hayas avanzado y me especificas exactamente donde es que te sale el error y que es lo que has intentado hacer para resolverlo. De esta forma yo tendré suficiente contexto para poder ayudarte lo más rápido posible.
+	Usando cualquiera de estas opciones, me haces el envío de tu trabajo hasta donde hayas avanzado y me especificas exactamente donde es que te sale el error y que es lo que has intentado hacer para resolverlo. De esta forma yo tendré suficiente contexto para poder ayudarte lo más rápido posible.
 
 8. El correo al que me puedes enviar tus dudas es rsaldomando@talento.tls.edu.pe 
 
