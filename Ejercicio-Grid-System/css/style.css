@@ -1,1 +1,131 @@
-/* Inserta tu código aqui */
+body {
+	font-family: arial;
+	font-size: 14px;
+}
+
+header {
+	background: #000;
+	padding: 15px 0;
+}
+
+h1 {
+	width: 80px;
+}
+
+h1 img {
+	width: 100%;
+	background: transparent;
+	border: none;
+}
+
+nav {
+	float: right;
+	margin-top: 40px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px;
+	text-transform: uppercase;
+}
+
+nav a:last-child {
+	margin-right: 0;
+}
+
+#latest {
+	background: #ccc;
+}
+
+h2 {
+	font-size: 18px;
+	padding: 20px 0;
+}
+
+h2 span a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #297ACA;
+}
+
+.col-3 {
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+	background: #fff;
+	padding: 2px;
+	border: 1px solid #aaa;
+}
+
+h3 a {
+	text-decoration: none;
+	color: #297ACA;
+	font-size: 16px;
+}
+
+#all-eps {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+ul li {
+	list-style: none;
+	padding: 3px 0;
+}
+
+li img {
+	width: 15px;
+	border: none;
+	background: transparent;
+	margin-right: 8px;
+}
+
+li a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #297ACA;
+}
+
+#all-eps h3 {
+	padding-bottom: 10px;
+	margin-top: 20px;
+	border-bottom: 2px solid #ccc;
+	color: #888;
+	font-size: 14px;
+}
+
+#all-eps p {
+	border-top: 1px solid #ccc;
+	font-size: 12px;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+
+#all-eps a {
+	color: #297ACA;
+	text-decoration: none;
+}
+
+footer {
+	background: #444;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
