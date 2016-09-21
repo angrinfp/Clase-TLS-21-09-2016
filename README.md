@@ -8,7 +8,7 @@ Lee cuidadosamente las siguientes instrucciones para poder entregar y hacer bien
 
 3. En la carpeta Docs de cada ejercicio encontrarás las imágenes en donde verás los sitios que maquetarás con lo aprendido en clase.
 
-4. El deadline de entrega es el día viernes 16 de setiembre a la medianoche. Ni un minuto más, ni un minuto menos. 
+4. El deadline de entrega es el día miércoles 28 de setiembre a la medianoche. Ni un minuto más, ni un minuto menos. 
 
 5. De no hacer la entrega dentro del deadline se considerará la tarea como no realizada y por lo tanto tendrá como nota 0.
 
