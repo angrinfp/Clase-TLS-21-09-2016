@@ -18,7 +18,7 @@ Lee cuidadosamente las siguientes instrucciones para poder entregar y hacer bien
 
 	* Si todo lo anterior fallara, adjuntar las fuentes de la tarea en un correo y mandármelo.
 
-	P.D: Quien me envíe la tarea usando el primer método, tendrá 1 punto extra en su nota de primer promedio.
+	P.D: Quien me envíe la tarea usando el primer método, tendrá 1 punto extra en su nota de esta tarea.
 
 6. Si tienes alguna duda sobre algún error o algo que no te salga de la tarea puedes hacer lo siguiente: 
 
