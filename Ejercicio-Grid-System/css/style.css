@@ -115,8 +115,26 @@ li a {
 }
 
 footer {
-	background: #444;
+	background: #555;
 	color: #fff;
+	padding: 20px;
+}
+
+footer a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+#footer-nav {
+	margin: 24px 0;
+}
+
+#footer-nav a {
+	margin: 0 5px;
+}
+
+#copyright {
+	color: #777;
 }
 
 
