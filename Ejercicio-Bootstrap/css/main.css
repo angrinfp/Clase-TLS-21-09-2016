@@ -1,1 +1,76 @@
 /* Inserta tu código aqui */
+header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+h1 {
+	margin: 0;
+}
+
+#top-nav {
+	margin-top: 10px;
+	text-align:right;
+}
+
+#top-nav a {
+	color: #000;
+}
+
+.nav-links {
+	display: inline-block;
+}
+
+form::before {
+	content: " ";
+	padding: 1px;
+	background: #000;
+	margin: 0 15px;
+}
+
+#main-nav {
+	background: #ddd;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#main-nav a {
+	color: #000;
+	padding: 11px 20px;
+}
+
+a.active {
+	background: #fff;
+}
+
+.tags {
+	margin-left: 50px;
+}
+
+.vermas,
+.tags {
+	color: #000;
+}
+
+.tag {
+	color: #000;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+.l-boxes {
+	padding: 30px 0;
+	border-bottom: 1px solid #aaa;
+}
+
+.l-boxes img {
+	width: 100%;
+}
+
+iframe {
+	width: 100%;
+}
+
+.vermas2 {
+	float: right;
+}
