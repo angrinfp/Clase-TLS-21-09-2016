@@ -24,7 +24,7 @@
         <nav id="top-nav" class="col-xs-6 col-sm-8 col-md-8 col-lg-8">
           <a href="#" class="nav-links"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Noticias</a>
           <a href="#" class="nav-links"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Enlaces RSS</a>
-          <form class="nav-links">
+          <form class="nav-links r-content">
               <input type="search" name="buscar" placeholder="ingresa tu búsqueda">
               <input type="submit">
           </form>
@@ -35,21 +35,24 @@
     <div class="row">
       <nav id="main-nav">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <a href="#" class="active">Bienvenido</a>
-          <a href="#">Actualidades</a>
-          <a href="#">En directo</a>
-          <a href="#">Reporte financiero</a>
-          <a href="#">Nuestra oferta</a>
-          <a href="#">De nosotros a usted</a>
+          <div class="asd">
+            <a href="#" class="active">Bienvenido</a>
+            <a href="#">Actualidades</a>
+            <a href="#">En directo</a>
+            <a href="#">Reporte financiero</a>
+            <a href="#">Nuestra oferta</a>
+            <a href="#">De nosotros a usted</a>
+            <a href="#"><span class="glyphicon glyphicon-bookmark navi" aria-hidden="true"></span></a>
+          </div>
         </div>
       </nav>
     </div>
 
     <section class="row">
-      <div id="art1" class="col-xs-12 col-sm-8 col-md-5 col-lg-5">
+      <div id="art1" class="col-xs-12 col-sm-7 col-md-5 col-lg-5">
         <div class="l-boxes">
           <button class="destacada">Historia Destacada</button>
-          <p><b>Artículo | </b>publicado el 09/10/15</p>
+          <p class="publicado"><b>Artículo | </b>publicado el 09/10/15</p>
           <h3>Lorem ipsum et diligat gentris</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -60,7 +63,7 @@
         </div>
         <div class="l-boxes">
           <button class="webzone">Webzone</button>
-          <span>Preguntas: | publicado el 09/10/15</span>
+          <span class="preguntas"><ins>Preguntas:</ins> | publicado el 09/10/15</span>
           <h3>Lorem ipsum et diligat gentris</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -80,7 +83,7 @@
           <a href="#" class="vermas"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> <b>Ver más...</b></a>
           <a href="#" class="tags"><span class="glyphicon glyphicon-tag"></span><b>Etiquetas:</b></a> <a href="#" class="tag">lorem</a> <a href="#" class="tag">ipsum</a> <a href="#" class="tag">diligat</a>
         </div>
-        <div class="l-boxes">
+        <div class="l-boxes l-boxes-n">
           <h3>Lorem ipsum et diligat gentris</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -91,31 +94,169 @@
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <button class="destacada">Historia Destacada</button>
-        <iframe src="https://player.vimeo.com/video/174605369?title=0&byline=0&portrait=0" width="640" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <h3>Claire Dupond</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
-          <span>publicado el 09/10/15</span>
-          <a href="#" class="vermas2"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> <b>Ver más...</b></a>
+      <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+        <div class="l-boxes-c">
+          <button class="destacada">Historia Destacada</button>
+          <iframe src="https://player.vimeo.com/video/174605369?title=0&byline=0&portrait=0" width="640" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <h3>Claire Dupond</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+            <span>publicado el 09/10/15</span>
+            <a href="#" class="vermas2"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> <b>Ver más...</b></a>
+          </div>
+          <div class="l-boxes">
+            <button class="destacada">Agenda</button>
+            <div class="row row-agenda">
+              <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <img src="./img/may15.png">
+              </div>
+              <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9">
+                <h4>Lorem ipsum et diligat</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>De 23 a 28 Diciembre 2015</p>
+              </div>
+            </div>
+            <div class="row row-agenda">
+              <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <img src="./img/may15.png">
+              </div>
+              <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9">
+                <h4>Lorem ipsum et diligat</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>De 23 a 28 Diciembre 2015</p>
+              </div>
+            </div>
+            <div class="row row-agenda">
+              <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <img src="./img/may15.png">
+              </div>
+              <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9">
+                <h4>Lorem ipsum et diligat</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>De 23 a 28 Diciembre 2015</p>
+              </div>
+            </div>
+            <div class="row row-agenda">
+              <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <img src="./img/may15.png">
+              </div>
+              <div class="col-xs-8 col-sm-9 col-md-9 col-lg-9">
+                <h4>Lorem ipsum et diligat</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>De 23 a 28 Diciembre 2015</p>
+              </div>
+            </div>
+          </div>
+          <div class="l-boxes l-boxes-n">
+            <h2>Más información</h2>
+            <div class="row">
+              <div class="col-sm-12">
+                <a href="#" class="wa">Localidades</a>
+                <h4>Lorem ipsum et diligat</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <a href="#" class="wa">Hospimedia</a>
+                <h4>Lorem ipsum et diligat</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
       </div>
 
-      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-        <h2>Más información</h2>
-        <ul>
-          <li>Finanzas y fiscalización</li>
-          <li>Inversión y equipos</li>
-          <li>Medio ambiente</li>
-          <li>Habitat / Urbanismo</li>
-          <li>Sanidad</li>
-          <li>Social / Servicios</li>
-          <li>Transporte</li>
-        </ul>
+      <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 r-content">
+        <div class="l-boxes">
+          <h2>Más información</h2>
+          <ul>
+            <li>Finanzas y fiscalización</li>
+            <li>Inversión y equipos</li>
+            <li>Medio ambiente</li>
+            <li>Habitat / Urbanismo</li>
+            <li>Sanidad</li>
+            <li>Social / Servicios</li>
+            <li>Transporte</li>
+          </ul>
+        </div>
+        <div class="r-boxes">
+          <h3 class="magazine">MAGAZINE</h3>
+          <h4>ECODEFI</h4>
+          <h6>ENQUETE</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h6>PREGUNTAS</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor.</p>
+        </div>
+        <div class="r-boxes">
+          <h3 class="magazine">MAGAZINE</h3>
+          <h4>ACCIONES COMUNES</h4>
+          <h6>ENQUETE</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h6>PREGUNTAS</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor.</p>
+        </div>
+        <div class="r-boxes">
+          <p><b>Nueva generación de la internet</b></p>
+        </div>
       </div>
     </section>
+
+    <footer>
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+          <h5>Rubros</h5>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Actualidades</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> En directo</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Reporte financiero</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Nuestra oferta</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> De Nosotros a ustedes</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="expertise">
+          <h5>Expertise</h5>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Finanzas y fiscalización</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Investigación y equipos</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Medio ambiente</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Habitat / Urbanismo</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Sanidad</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Social / Servicios</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Transporte</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+          <h5>Suscripción</h5>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Todo el flujo</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Flujo RSS para expertos</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Noticias</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-">
+          <h5>Nosotros</h5>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> ¿Quienes somos?</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Plan del sitio</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Información legal</li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-2 col-md-2 col-lg-">
+          <h5>Contacto</h5>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Contáctanos</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> FAQ</li>
+            <li><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> Haga sus preguntas</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
   </div>
 
